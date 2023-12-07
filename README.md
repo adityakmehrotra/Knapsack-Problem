@@ -24,3 +24,4 @@ The input will start with an positive integer, giving the number of instances th
 The sample input has two instances. The first instance has one item and a capacity of 3. The item has weight 4 and value 100. The second instance has three items and a capacity of 4.
 
 ### Time Complexity
+The time complexity of the optimal knapsack problem is **O(n * W)**.
