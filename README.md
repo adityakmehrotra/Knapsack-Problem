@@ -19,3 +19,5 @@ The input will start with an positive integer, giving the number of instances th
 ### Sample Output
 0<br>
 6
+
+### Sample Input and Output Description
