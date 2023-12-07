@@ -17,5 +17,5 @@ The input will start with an positive integer, giving the number of instances th
 2 4
 
 ### Sample Output
-0
+0<br>
 6
