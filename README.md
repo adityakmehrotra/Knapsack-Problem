@@ -26,3 +26,6 @@ The sample input has two instances. The first instance has one item and a capaci
 The time complexity of the optimal knapsack problem is **O(n * W)**, where n is the number of items and W is the capacity.
 
 ### Run the Code
+Downloard the required files:
+- ``:
+- ``: 
