@@ -30,4 +30,4 @@ The time complexity of the optimal knapsack problem is **O(n * W)**, where n is 
   - `knapsack.java`: Java file with the algorithm that solved the knapsack problem optimally in terms of time and space.
   - `Makefile`: Makefile to build the Java file through the compiler and run the algorithm in the file.
 - You can run the `knapsack.java` file through your IDE/Console
-- You can use the `Makefile`
+- You can use the `Makefile` to build the Java file through the compiler and run the
