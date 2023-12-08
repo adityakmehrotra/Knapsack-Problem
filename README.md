@@ -26,6 +26,7 @@ The sample input has two instances. The first instance has one item and a capaci
 The time complexity of the optimal knapsack problem is **O(n * W)**, where n is the number of items and W is the capacity.
 
 ### Run the Code
-Downloard the required files:
-- `knapsack.java`: Java file with the algorithm that solved the knapsack problem optimally in terms of time and space.
-- `Makefile`: Makefile to build the Java file through the compiler and run the algorithm in the file.
+- Downloard the required files:
+  - `knapsack.java`: Java file with the algorithm that solved the knapsack problem optimally in terms of time and space.
+  - `Makefile`: Makefile to build the Java file through the compiler and run the algorithm in the file.
+
