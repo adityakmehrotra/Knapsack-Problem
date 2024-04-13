@@ -1,33 +1,91 @@
 # Knapsack-Problem
-Using java to solve the Knapsack Problem optimally in terms of time and space.
+This project implements an optimal solution to the Knapsack problem using dynamic programming in Java. The solution is designed to be efficient in terms of time and space, handling multiple problem instances from input data.
 
-## Optimal Alogrithm for the Knapsack Problem
+## Problem Description
 
-### Problem Description
-The input will start with an positive integer, giving the number of instances that follow. For each instance, there will two positive integers, representing the number of items and the capacity, followed by a list describing the items. For each item, there will be two nonnegative integers, representing the weight and value, respectively.
+The Knapsack problem is a classic in combinatorial optimization, where the goal is to determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. 
+
+### Input Format
+- The first line contains an integer `N`, the number of instances.
+- For each instance:
+  - A line containing two integers `n` (number of items) and `W` (capacity).
+  - `n` lines follow, each containing two integers representing the weight and value of the items.
 
 ### Sample Input
-2<br>
-1 3<br>
-4 100<br>
-3 4<br>
-1 2<br>
-3 3<br>
-2 4
+  ```perl
+  2 <br>
+  1 3 <br>
+  4 100 <br>
+  3 4 <br>
+  1 2 <br>
+  3 3 <br>
+  2 4 <br>
+  ```
+
+### Output Format
+- For each instance, output a single line with the maximum value possible within the given capacity.
 
 ### Sample Output
-0<br>
+0
 6
 
-### Sample Input and Output Description
-The sample input has two instances. The first instance has one item and a capacity of 3. The item has weight 4 and value 100. The second instance has three items and a capacity of 4.
+markdown
+Copy code
+
+### Explanation of Sample
+- The first instance has one item with weight 4 and value 100 but a capacity of only 3, so no items can be taken.
+- The second instance has three items, where the optimal solution is to take the first and third items, giving a total value of `6`.
+
+## Technical Details
+
+### Time Complexity
+The dynamic programming approach to solving the Knapsack problem has a time complexity of `O(n * W)`, where `n` is the number of items and `W` is the capacity.
+
+## Getting Started
+
+### Prerequisites
+- Java JDK 8 or higher.
+
+### Running the Code
+
+#### Using an IDE
+1. Clone the repository:
+git clone https://github.com/your-username/knapsack-problem.git
+
+markdown
+Copy code
+2. Open the project in your IDE (e.g., Eclipse, IntelliJ) and run the `knapsack.java` file.
+
+#### Using the Command Line
+1. Navigate to the project directory:
+cd knapsack-problem
+
+markdown
+Copy code
+2. Compile the Java program:
+javac knapsack.java
+
+markdown
+Copy code
+3. Run the compiled program:
+java knapsack
+
+css
+Copy code
+Follow the prompts in the console to enter input or pipe input from a file.
+
+#### Using Makefile
+1. If a `Makefile` is provided, you can build and run the program with:
+make
+
+csharp
+Copy code
+This command compiles and runs the `knapsack.java` file as specified in the Makefile.
+
+### Contributing
+Contributions to this project are welcome! Please fork the repository, make your changes, and submit a pull request for review.
 
 ### Time Complexity
 The time complexity of the optimal knapsack problem is **O(n * W)**, where n is the number of items and W is the capacity.
 
-### Run the Code
-- Downloard the required files:
-  - `knapsack.java`: Java file with the algorithm that solved the knapsack problem optimally in terms of time and space.
-  - `Makefile`: Makefile to build the Java file (`knapsack.java`) through the compiler and run the algorithm in the Java file (`knapsack.java`).
-- You can run the `knapsack.java` file through your IDE/Console.
-- You can use the `Makefile` to build the Java file (`knapsack.java`) through the compiler and run the algorithm in the Java file (`knapsack.java`).
+### Last Updated: 04/13/2024
