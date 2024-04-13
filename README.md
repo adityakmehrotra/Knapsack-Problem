@@ -12,25 +12,24 @@ The Knapsack problem is a classic in combinatorial optimization, where the goal 
   - `n` lines follow, each containing two integers representing the weight and value of the items.
 
 ### Sample Input
-  ```perl
-  2 <br>
-  1 3 <br>
-  4 100 <br>
-  3 4 <br>
-  1 2 <br>
-  3 3 <br>
-  2 4 <br>
+  ```java
+  2
+  1 3
+  4 100
+  3 4
+  1 2
+  3 3
+  2 4
   ```
 
 ### Output Format
 - For each instance, output a single line with the maximum value possible within the given capacity.
 
 ### Sample Output
-0
-6
-
-markdown
-Copy code
+  ```java
+  0
+  6
+  ```
 
 ### Explanation of Sample
 - The first instance has one item with weight 4 and value 100 but a capacity of only 3, so no items can be taken.
@@ -50,36 +49,36 @@ The dynamic programming approach to solving the Knapsack problem has a time comp
 
 #### Using an IDE
 1. Clone the repository:
-git clone https://github.com/your-username/knapsack-problem.git
+  ```bash
+  git clone https://github.com/your-username/knapsack-problem.git
+  ```
 
-markdown
-Copy code
 2. Open the project in your IDE (e.g., Eclipse, IntelliJ) and run the `knapsack.java` file.
 
 #### Using the Command Line
 1. Navigate to the project directory:
-cd knapsack-problem
+  ```bash
+  cd knapsack-problem
+  ```
 
-markdown
-Copy code
 2. Compile the Java program:
-javac knapsack.java
+  ```bash
+  javac knapsack.java
+  ```
 
-markdown
-Copy code
 3. Run the compiled program:
-java knapsack
+  ```bash
+  java knapsack
+  ```
 
-css
-Copy code
 Follow the prompts in the console to enter input or pipe input from a file.
 
 #### Using Makefile
 1. If a `Makefile` is provided, you can build and run the program with:
-make
+  ```bash
+  make
+  ```
 
-csharp
-Copy code
 This command compiles and runs the `knapsack.java` file as specified in the Makefile.
 
 ### Contributing
