@@ -12,7 +12,7 @@ The Knapsack problem is a classic in combinatorial optimization, where the goal 
   - `n` lines follow, each containing two integers representing the weight and value of the items.
 
 ### Sample Input
-  ```java
+  ```markdown
   2
   1 3
   4 100
@@ -26,7 +26,7 @@ The Knapsack problem is a classic in combinatorial optimization, where the goal 
 - For each instance, output a single line with the maximum value possible within the given capacity.
 
 ### Sample Output
-  ```java
+  ```markdown
   0
   6
   ```
