@@ -87,4 +87,5 @@ Contributions to this project are welcome! Please fork the repository, make your
 ### Time Complexity
 The time complexity of the optimal knapsack problem is **O(n * W)**, where n is the number of items and W is the capacity.
 
-### Last Updated: 04/13/2024
+### Last Updated
+04/13/2024
